@@ -12,8 +12,8 @@ wget -O /etc/yum.repos.d/epel-7.repo http://mirrors.aliyun.com/repo/epel-7.repo 
 yum -y install unzip bzip2 zlib zlib-devel pcre pcre-devel openssl openssl-devel \
 geoip geoip-devel gd gd-devel gcc gcc-c++ make libtool && \
 # 安装nginx
-cd /usr/src/ && tar xf nginx-1.19.10.tar.gz && tar xf openssl-1.1.1f.tar.gz && tar xf pcre-8.44.tar.gz && tar xf zlib-1.2.11.tar.gz && \
-cd nginx-1.19.10 && \
+cd /usr/src/ && tar xf nginx-1.18.0.tar.gz && tar xf openssl-1.1.1f.tar.gz && tar xf pcre-8.44.tar.gz && tar xf zlib-1.2.11.tar.gz && \
+cd nginx-1.18.0 && \
 ./configure \
 --prefix=/usr/local/nginx \
 --pid-path=/var/run/nginx.pid \

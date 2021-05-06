@@ -1,7 +1,7 @@
-**基于centos7制作nginx1.19.10镜像**
+**基于centos7制作nginx1.18.0镜像**
 
 版本信息：<br>
-nginx   version:  1.19.10<br>
+nginx   version:  1.18.0<br>
 openssl version:  1.1.1f<br>
 zlib    version:  1.2.11<br>
 pcre    version:  8.44<br>
